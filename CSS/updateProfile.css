@@ -1,0 +1,73 @@
+.body{
+    display: grid;
+    grid-template-columns: 1.5fr 4.5fr 1.3fr;
+}
+
+.body .photo{}
+
+.body .form h1{
+    background-color: #385640;
+    color: #fafafa;
+    font-family: 'Sirin Stencil', cursive;
+    width: 92%;
+    margin: 50px auto 10px;
+    border-radius: 7px;
+    position: relative;
+    padding: 2px 0 15px;
+}
+
+.body .form h1 img{
+    width: 60px;
+    position: absolute;
+    bottom: 30px;
+    left: 40px;
+}
+
+.body .form h1 span{
+    margin-left: 15%;
+    font-size: 2.4rem;
+}
+
+
+
+.body .links{
+    background-color: #d9d9d986;
+}
+
+.body .links .link{
+    background-color: #385640;
+    width: 65%;
+    margin: 18% auto;
+    position:relative;
+    padding: 20px 10px 10px;
+    text-align: end;
+    border-radius: 10px;
+    font-family: 'Sirin Stencil', cursive;
+    font-size: 1.2rem;
+}
+
+.body .links .link img{
+    width: 40px;
+    position: absolute;
+    left: -13px;
+    top: -15px;
+}
+
+.body .links .link a{
+    color: #fafafa;
+    text-decoration: none;
+}
+
+.body .links .link a:hover{
+    color: #fafafac4;
+}
+
+.body .links .link button{
+    background-color: transparent;
+    border: none;
+    color: #fafafa;
+}
+
+.body .links .link button:hover{
+    color: #fafafac4;
+}

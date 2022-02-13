@@ -1,0 +1,234 @@
+.body{
+    display: grid;
+    grid-template-columns: 1.5fr 4.5fr 1.3fr;
+}
+/* Profile Part */
+.body .profile{
+    padding: 10px;
+    background-color: #d9d9d986;
+    text-align: center;
+    font-weight: 700;
+    font-family: 'Playfair Display', serif;
+    color: #000000;
+}
+
+.body .profile .img, .body .profile .info{
+    background-color: #a6a6a64b;
+    padding: 10px 30px;
+    width: 75%;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 75px;
+}
+
+.body .profile .img img{
+    width: 100%;
+}
+
+.body .profile .info{
+    margin-top: 40px;
+    padding: 25px 0;
+}
+
+.body .profile .info p{
+    margin: 0 0 7px;
+}
+.body .profile .info p:last-of-type{
+margin-bottom: 20px;
+}
+.body .profile .info span{
+    background-color: rgb(180, 179, 179);
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.body .profile .info span a{
+    text-decoration: none;
+    color: #385640;
+    margin: 0 7px;
+}
+
+.body .profile .info span a:hover{
+    color:rgb(39, 51, 42);
+}
+
+/* Summaries Part */
+.body .summaries{
+    overflow: auto;
+    height: 600px;
+}
+
+/* Heading */
+.body .summaries h1{
+    background-color: #385640;
+    color: #fafafa;
+    font-family: 'Sirin Stencil', cursive;
+    width: 92%;
+    margin: 50px auto 10px;
+    border-radius: 7px;
+    position: relative;
+    padding: 2px 0 15px;
+}
+
+.body .summaries h1 img{
+    width: 80px;
+    position: absolute;
+    bottom: 30px;
+    left: 35px;
+}
+
+.body .summaries h1 span{
+    margin-left: 16%;
+    font-size: 2.4rem;
+}
+
+/* Search Part */
+.body .summaries form{
+    background-color: #a6a6a64b;
+    width: 85%;
+    padding: 20px 30px;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 0.5fr;
+    font-family: 'Cormorant Garamond', serif;
+    border-radius: 7px;
+}
+
+.body .summaries form input{
+    background-color: #7373739d;
+    width: 80%;
+    border: none;
+    border-radius: 7px;
+    outline: none;
+    margin-top: 3px;
+    height: 25px;
+}
+
+.body .summaries form .submit input{
+    width: 60%;
+    background-color: #385640;
+    color: #fafafa;
+}
+
+.body .summaries .summary{
+    background-color: #a6a6a64b;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    width: 85%;
+    margin: 150px auto 20px;
+    position: relative;
+    height: 200px;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.body .summaries .summary .generalinfo{
+    margin-top: 70px;
+}
+.body .summaries .summary .generalinfo img{
+    width: 200px;
+    bottom: 100px;
+    position: absolute;
+    left: 10px;
+}
+
+.body .summaries .summary .generalinfo .writerinfo{
+    margin-top: 20px;
+}
+
+.body .summaries .summary .generalinfo .writerinfo p{
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    text-align: center;
+    margin: 0;
+}
+
+.body .summaries .summary .generalinfo .writerinfo p.description{
+    font-weight: 400;
+}
+
+.body .summaries .summary .summaryinfo{
+    width: 90%;
+    margin: auto;
+}
+
+.body .summaries .summary .summaryinfo p{
+    background-color: #7373739d;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    width: 60%;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.body .summaries .summary .summaryinfo .description{
+    font-weight: 400;
+    width: 80%;
+}
+
+.body .summaries .summary .summaryinfo span{
+    background-color: #7373739d;
+    border-radius: 7px;
+    padding: 0px 5px;
+}
+
+.body .summaries .summary .summaryinfo span button{
+    background-color: transparent;
+    border:none;
+    color: #385640;
+}
+
+.body .summaries .summary .summaryinfo span button:hover{
+    color:rgb(39, 51, 42)
+}
+
+.body .summaries .summary .summaryinfo .read{
+    color:#fafafa;
+    background-color:#385640;
+    border: none;
+    border-radius: 7px;
+    padding: 5px 30px;
+    margin-left: 10px;
+}
+
+.body .links{
+    background-color: #d9d9d986;
+}
+
+.body .links .link{
+    background-color: #385640;
+    width: 65%;
+    margin: 18% auto;
+    position:relative;
+    padding: 20px 10px 10px;
+    text-align: end;
+    border-radius: 10px;
+    font-family: 'Sirin Stencil', cursive;
+    font-size: 1.2rem;
+}
+
+.body .links .link img{
+    width: 40px;
+    position: absolute;
+    left: -13px;
+    top: -15px;
+}
+
+.body .links .link a{
+    color: #fafafa;
+    text-decoration: none;
+}
+
+.body .links .link a:hover{
+    color: #fafafac4;
+}
+
+.body .links .link button{
+    background-color: transparent;
+    border: none;
+    color: #fafafa;
+}
+
+.body .links .link button:hover{
+    color: #fafafac4;
+}

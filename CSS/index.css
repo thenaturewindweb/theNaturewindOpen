@@ -1,0 +1,45 @@
+.body .sidebar{
+    border-right: 1px solid rgba(0, 0, 0, 0.034);
+   
+}
+.body .sidebar li{
+    list-style: none;
+    padding: 20px 0px;
+}
+.body .sidebar li a{
+    text-decoration: none;
+}
+.summary{
+    display: flex;
+    background-color:rgb(230, 250, 245);
+    margin: 10px auto;
+    width: 70vw;
+    color: #100051;
+    border-radius: 5px;
+    padding: 20px;
+    align-items: center;
+}
+.summary .meta{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.603);
+}
+.summary img{
+    width: 160px;
+}
+.summary .functions{
+    display: flex;
+}
+.summary .functions a{
+    text-decoration: none;
+    color: #100051;
+    font-size: 16px;
+    margin-right: 10px;
+}
+.summary .summaryinfo h5{
+    color: green;
+}
+
+
+

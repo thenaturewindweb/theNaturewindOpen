@@ -1,0 +1,126 @@
+.body{
+    display: grid;
+    grid-template-columns: 1.2fr 5fr;
+}
+
+/* Side Bar */
+
+.body .sidebar .button{
+    position: relative;
+    border-radius: 7px;
+}
+.body .sidebar .button img{
+    padding: 0px 10px;
+    width: 50px;
+}
+.body .sidebar ul .button{
+    display: flex;
+}
+.body .sidebar ul .button button{
+    background-color: transparent;
+    width: 100%;
+    border: none;
+    text-align: left;
+    margin: 0;
+}
+
+ul{
+    margin: 0px;
+    padding: 0px !important;
+}
+
+
+
+
+/* Heading */
+.body .main{
+    margin-bottom: 50px;
+}
+.body .main .summarybook{
+    background-color: #100051;
+    color: #ffffff;      
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px auto 10px auto;
+    border-radius: 7px;
+    position: relative;
+    padding: 10px 0 15px;
+}
+.body .main .summarybook h2{
+    text-transform:uppercase;
+    
+}
+
+.body .main .summarybook img{
+    width: 50px;
+    margin: 10px;
+    bottom: 25px;
+    left: 40px;
+}
+
+.body .main .summarybook div{
+    display: flex;
+    align-items: center;
+}
+.body .main .summarybook .summary-type {
+    margin-right: 20px;
+}
+
+.body .main .summarybook a{
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: #fafafa;
+    background-color: #d9d9d98e;
+    padding: 5px 15px;
+    border-radius:10px;
+    right: 20px;
+    top: 20px;
+    margin: 10px 20px;
+}
+
+.body .main .summarybook a:hover{
+    color: rgba(255, 255, 255, 0.664);
+}
+
+
+/* Search Part */
+.body .main form{
+    width: 90%;
+    padding: 20px 30px;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    font-family: 'Cormorant Garamond', serif;
+    align-items: center;
+    border-radius: 7px;
+}
+
+.body .main form input{
+    align-items: center;
+    width: 80%;
+    border: 1px solid #d9d9d98e;
+    border-radius: 7px;
+    outline: none;
+    margin-top: 3px;
+    padding: 3px 10px;
+    height: 30px;
+}
+
+.body .main form .submit input{
+    height: auto;
+    background-color: #385640;
+    color: #fafafa;
+}
+
+
+
+
+
+
+
+
+
+
+

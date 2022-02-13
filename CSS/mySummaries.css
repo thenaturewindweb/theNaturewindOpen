@@ -1,0 +1,32 @@
+
+
+/* Summaries Part */
+
+
+/* Search Part */
+.body .summaries form{
+    width: 90%;
+    padding: 20px 30px;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 0.5fr;
+    font-family: 'Cormorant Garamond', serif;
+    border-radius: 7px;
+}
+
+.body .summaries form input{
+    align-items: center;
+    width: 80%;
+    border: 1px solid #d9d9d98e;
+    border-radius: 7px;
+    outline: none;
+    margin-top: 3px;
+    padding: 3px 10px;
+    height: 30px;
+}
+
+.body .summaries form .submit input{
+    height: auto;
+    background-color: #385640;
+    color: #fafafa;
+}
